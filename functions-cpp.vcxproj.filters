@@ -4,10 +4,27 @@
     <Filter Include="main">
       <UniqueIdentifier>{130ee02e-72a7-41a7-a810-40a0fc3800cd}</UniqueIdentifier>
     </Filter>
+    <Filter Include="lib">
+      <UniqueIdentifier>{b4d6239b-f0e8-409a-91a4-8b429c93c5c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="func_arr">
+      <UniqueIdentifier>{e39c1cd1-1385-4320-8aeb-38753cdc305c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>main</Filter>
     </ClCompile>
+    <ClCompile Include="func-arr.cpp">
+      <Filter>func_arr</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="lib.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="func-arr.h">
+      <Filter>func_arr</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
